@@ -1,18 +1,18 @@
 Rate limit for DDoS mitigation
-
-1.For testing detection module
+1.Run controller
+1.1For testing detection module
 
 Run controller in file controller.py
 
 ryu-manager controller.py
 
-2.For testing mitigation module
+1.2.For testing mitigation module
 
 Run controller in file mitigation_module.py
 
 ryu-manager mitigation_module.py
 
-Run mininet topology by
+2.Run mininet topology by
 
 sudo python3 topology.py
 
